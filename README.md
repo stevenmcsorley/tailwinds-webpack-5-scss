@@ -27,13 +27,13 @@ In the article source above it continues to iterate over the requiremnets such a
 - And finally, the system should communicate useful information to developers in class names when reading a DOM snippet.
 
 This all very well in 2016, Tailwinds first release was out in May 2019, Bootstrap first release was 2011.
-From this in my opinion and expeierence boostrap can quickly become messy and projects often end up with hacks, stripped down variants and still the need for class names strewn throughout the markup, making it impossible or time consuming to maintain.
+From this in my opinion and expeierence bootsrap can quickly become messy and projects often end up with hacks, stripped down variants and still the need for specific class names strewn throughout the code base, making it impossible or time consuming to maintain.
 The above article also mentions using [BEM] for naming conventions [SMACCS] for splitting up the rules across your CSS.
-This also can lead to messy file structures whats a component or a module, atomic design becomes blurred and classes start taking on page names and if your project or team have no style guide, devs soon become lost or worse, over opinioted debates start about class names, folder names, var names, specificty and who is tracking all this inbetween PR's.
+This also can lead to messy file structures, what is a component or a module, layout, structure, typography, atomic design becomes blurred and classes start taking on page names and if your project or team have no style guide, devs soon become lost or worse, over opinionated debates about class names, folder names, var names, specificty and who is tracking all this inbetween PR's. Bike shedding.
 With all the above you need
 - A style guide, an agreement made by developers on the style of the code and ideaologies to be followed in its construction, which can take time to make and can evolve with personnal preference rather than best practises.
-- class names, var names, folder names and what fgoes in each of those folder names, does the style guide dictate this ? More time added doing this
-- knowledge of BEM, SMACCS, exerince of using, creating reusable code and not introducing complexity 
+- class names, var names, folder names and what goes in each of those folder names, does the style guide dictate this ? More time added doing this
+- knowledge of BEM, SMACCS, experience of using, creating reusable code and not introducing complexity 
 
 The following article describes another pitfull often unseen in the strive to make css more managable in projects old and new and as it does, forces better ways of doing things.
  #### Tools & Patterns
@@ -50,8 +50,8 @@ Patterns emerged as we settled into these new technologies. BEM solved a lot of 
 [source - https://echobind.com/post/tides-of-the-tailwind](https://echobind.com/post/tides-of-the-tailwind)
 
 
-One of things I have noticed over the years, is projects without style guides quickly become legacy code, as soon as a couple of weeks, or the devs who created it have left or never come back to that project unless new devs end up on it doing mainatenance and the need to speek to the previous devs to ask for an overview, stare at it for awhile and say, why did they not use a framework like Tailwinds to remove all all the above.
-The problem with creatingstyle guides especially with custom SCSS it takes time and it still doesnt cover the aspects of naming conventions, whats in the design, desgin system if it has one and some of the issues stated above.
+One of things I have noticed over the years, is projects without style guides quickly become legacy code, as soon as a couple of weeks, or the devs who created it have left or never come back to that project unless new devs end up on it doing mainatenance and the need to speak to the previous devs to ask for an overview, stare at it for awhile and say, why did they not use a framework like Tailwinds to remove all of the above.
+The problem with creating style guides especially with custom SCSS it takes time and it still doesnt cover the aspects of naming conventions, whats in the design, desgin system if it has one and some of the issues stated above.
 Style guides are still good to cover basic things and agreed on ideologies on granular aspects of the code creation and maintainabilty. But its not the silver bullet.
 
 ## Reusablity
@@ -65,8 +65,8 @@ One of the paramonut things neded for code creation or simply making sites, apps
 
 Enter Tailwinds a utilty first CSS framework using reusable classes.
 Their notes on [best practises](https://tailwindcss.com/docs/reusing-styles)
-says it all not to mention their entire documentation is all you need.
 
+This section covers loosely what anti patterns not to get into with tailwinds.
 > **Avoiding premature abstraction**
 Whatever you do, don’t use @apply just to make things look “cleaner”. Yes, HTML templates littered with Tailwind classes are kind of ugly. Making changes in a project that has tons of custom CSS is worse.
 
