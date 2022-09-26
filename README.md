@@ -85,6 +85,26 @@ Whatever you do, don’t use @apply just to make things look “cleaner”. Yes,
 
 > If you’re going to use @apply, use it for very small, highly reusable things like buttons and form controls — and even then only if you’re not using a framework like React where a component would be a better choice.
 
+### Advantages of using a utility first framework
+
+- The hard work / thinking has already been done and is being continusly being worked on, maintained and improved.
+> - “Best practices” don’t actually work.
+I’ve written a few thousand words on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you’ll wonder how you ever worked with CSS any other way.
+[Source - Tailwinds Homepage](https://tailwindcss.com/)
+
+- Enables developers to work together on the same direction without conflicts in code.
+
+> - "Skip to the end" - Kent C Dodds
+
+- Makes continous maintenance easier if there are frequent design changes.
+
+- more flexable than custom css
+
+- faster to transform legacy html components or decorate legacy html and css
+
+- generaly faster to develop with
+
+
 ### Some useful resources
-[Useful Tailwinds Links](https://github.com/aniftyco/awesome-tailwindcss)
-[Windy](https://usewindy.com/) - Browser extension to convert HTML elements to Tailwind CSS.
+- [Useful Tailwinds Links](https://github.com/aniftyco/awesome-tailwindcss)
+- [Windy](https://usewindy.com/) - Browser extension to convert HTML elements to Tailwind CSS.
