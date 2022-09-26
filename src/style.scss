@@ -1,0 +1,54 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./css/components/modules.scss";
+
+
+@layer base {
+    :root {
+        --color-custom-100: 80, 200, 120;
+        --color-custom-200: 79, 121, 66;
+        --color-custom-300: 124, 252, 0;
+        --color-custom-400: 0, 0, 0;
+        --color-custom-500: 255, 255, 255;
+
+        --font-custom-primary: 'Helvetica', sans-serif;
+        --font-custom-secondary: 'Times', serif;
+
+        --decorate-1: none;
+        --decorate-2: none;
+        --decorate-border-1: 2px solid rgb(255, 255, 255);
+    }
+}
+
+.theme-red {
+    --color-custom-100: 136, 8, 8;
+    --color-custom-200: 170, 74, 68;
+    --color-custom-300: 238, 75, 43;
+    --color-custom-400: 0, 0, 0;
+    --color-custom-500: 255, 255, 255;
+
+    --font-custom-primary: 'Times', serif;
+    --font-custom-secondary: 'Helvetica', sans-serif;
+
+    --decorate-1: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="rgba(80, 200, 120, 0.5)" points="0,100 100,0 100,100"/></svg>');
+    --decorate-2: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="rgba(136, 8, 8, 0.5)" points="0,100 100,0 100,100"/></svg>');
+    --decorate-border-1: none;
+}
+
+.theme-dark {
+    --color-custom-100: 0, 0, 0;
+    --color-custom-200: 54, 69, 79;
+    --color-custom-300: 52, 52, 52;
+    --color-custom-400: 255, 255, 255;
+    --color-custom-500: 255, 255, 255;
+
+    --font-custom-primary: 'Roboto', sans-serif;
+    --font-custom-secondary: 'Times', serif;
+
+    --decorate-1: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="rgba(80, 200, 120, 0.5)" points="0,100 100,0 100,100"/></svg>');
+    --decorate-2: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="rgba(136, 8, 8, 0.5)" points="0,100 100,0 100,100"/></svg>');
+    --decorate-border-1: 1px solid rgb(255, 255, 255);
+}
+
+$primary-color: rgb(41, 3, 31);

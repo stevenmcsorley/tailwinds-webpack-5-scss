@@ -1,0 +1,32 @@
+.btn{
+    @apply
+    py-2 px-4;
+    cursor: pointer;
+
+    &--solid{
+        @apply
+        bg-custom-100
+        text-custom-400
+        hover:bg-custom-200
+        focus:bg-custom-200
+        active:bg-custom-300
+        disabled:bg-custom-400
+        disabled:bg-custom-400
+        disabled:cursor-not-allowed;
+    }
+    &--outline{
+        @apply
+        border-2
+        border-custom-100
+        text-custom-100
+        hover:bg-custom-100
+        hover:text-custom-400
+        focus:bg-custom-100
+        focus:text-custom-400
+        active:bg-custom-200
+        active:text-custom-400
+        disabled:bg-custom-400
+        disabled:text-custom-400
+        disabled:cursor-not-allowed;
+    }
+}

@@ -1,0 +1,25 @@
+.decorate {
+    @apply 
+    absolute 
+    top-0 
+    left-0 
+    max-w-sm 
+    w-full 
+    h-full
+    -z-10
+    bg-no-repeat
+    bg-right;
+    border-bottom: var(--decorate-border-1);
+
+    &--1 {
+        background-image: var(--decorate-1);
+        
+    }
+
+    &--2 {
+        background-image: var(--decorate-2);
+
+    }
+
+
+}
