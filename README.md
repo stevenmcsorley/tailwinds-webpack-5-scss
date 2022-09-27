@@ -135,3 +135,7 @@ I’ve written a few thousand words on why traditional “semantic class names�
 ### Some useful resources
 - [Useful Tailwinds Links](https://github.com/aniftyco/awesome-tailwindcss)
 - [Windy](https://usewindy.com/) - Browser extension to convert HTML elements to Tailwind CSS.
+
+### Further reading
+
+[Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
