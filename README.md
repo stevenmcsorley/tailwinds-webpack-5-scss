@@ -138,4 +138,5 @@ I’ve written a few thousand words on why traditional “semantic class names�
 
 ### Further reading
 
-[Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+- [Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+- [ Bike Shedding ](https://fs.blog/bikeshed-effect/)
