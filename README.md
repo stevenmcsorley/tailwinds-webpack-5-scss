@@ -125,7 +125,7 @@ I’ve written a few thousand words on why traditional “semantic class names�
 
 - Makes continous maintenance easier if there are frequent design changes.
 
-- more flexable than custom css
+- more flexible than custom css
 
 - faster to transform legacy html components or decorate legacy html and css
 
