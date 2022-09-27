@@ -81,9 +81,9 @@ One of things I have noticed over the years, is projects without style guides qu
 The problem with creating style guides especially with custom SCSS it takes time and it still doesnt cover the aspects of naming conventions, whats in the design, desgin system if it has one and some of the issues stated above.
 Style guides are still good to cover basic things and agreed on ideologies on granular aspects of the code creation and maintainabilty. But its not the silver bullet.
 
-## Reusablity
+## Reusability
 
-One of the paramonut things neded for code creation or simply making sites, apps, whatever is: 
+One of the paramount things neded for code creation or simply making sites, apps, whatever is: 
 - reusabilty espcially in fast paced enviroments with tight deadlines. 
  Excellant description here on what are the symptoms of bad software.
 [Uncle Bob Solid Principles](https://youtu.be/zHiWqnTWsn4?t=952)
@@ -91,7 +91,7 @@ One of the paramonut things neded for code creation or simply making sites, apps
 - Easily maintain it, change it slightly without breaking things in multiple places because its tightly coupled.
 
 Enter Tailwinds a utilty first CSS framework using reusable classes.
-Their notes on [best practises](https://tailwindcss.com/docs/reusing-styles)
+Their notes on [reusability](https://tailwindcss.com/docs/reusing-styles)
 
 This section covers loosely what anti patterns not to get into with tailwinds.
 > **Avoiding premature abstraction**
