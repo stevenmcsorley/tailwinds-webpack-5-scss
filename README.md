@@ -1,3 +1,30 @@
+# Webpack, Tailwinds, SCSS, HTML
+
+- node version v17.9.1
+
+install nvm if you need to change node version on 
+[Windows](https://github.com/coreybutler/nvm-windows/releases)
+
+
+
+Install packages
+```
+npm i
+```
+Build Front End
+```
+npm run build
+```
+Run Dev server and hot reload
+```
+npm run dev
+```
+
+- Themes vars are in src/style.scss
+- Change theme by adding theme class to html or body tag class
+- Default theme requires no class
+- html partials components were created from [Stitches](https://stitches.hyperyolo.com/) - Template generator with Tailwind (online).
+
 # Using tailwinds to transform legacy scss
 ## _and use in future projects_
 
